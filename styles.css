@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #b30000;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #800000;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.hero {
+    padding: 50px;
+    background: url('https://source.unsplash.com/1200x400/?motorcycle,service') no-repeat center center/cover;
+}
+
+.services {
+    padding: 50px;
+}
+
+.service-box {
+    display: inline-block;
+    margin: 20px;
+}
+
+.service-box img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.about {
+    padding: 40px;
+    background-color: #800000;
+}
+
+footer {
+    background-color: #b30000;
+    padding: 10px;
+}
